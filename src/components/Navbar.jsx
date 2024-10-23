@@ -1,9 +1,9 @@
 import 'react'
 import Logo from "../assets/rd-logo.jpg";    
-import { IoLogoLinkedin } from "react-icons/io";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoTwitter } from "react-icons/io";
-import { IoLogoInstagram } from "react-icons/io";
+import { FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -30,17 +30,17 @@ const Navbar = () => {
   <div className="m-8 flex  items-center justify-center gap-4 text-2xl ">
         <a href="https://www.linkedin.com" target='_blank'  aria-label="LinkedIn">
 
-          <IoLogoLinkedin />
+     <FiLinkedin />
         </a>
         <a href="https://www.github.com" target='_blank'  aria-label="GitHub">
-          <IoLogoGithub />
+          <FiGithub />
         </a>
         <a href="https://www.twitter.com" target='_blank'  aria-label="X (Twitter)">
-        <IoLogoTwitter />
+        <FiTwitter />
 
         </a>
         <a href="https://www.instagram.com" target='_blank' aria-label="Instagram">
-          <IoLogoInstagram />
+          <FiInstagram />
         </a>
       </div> 
 
