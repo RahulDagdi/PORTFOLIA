@@ -1,8 +1,8 @@
 import 'react'
 import Logo from "../assets/rd-logo.jpg";    
-import { CiLinkedin } from "react-icons/ci";
+import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
-import { CiTwitter } from "react-icons/ci";
+import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
 
 const Navbar = () => {
@@ -30,13 +30,13 @@ const Navbar = () => {
   <div className="m-8 flex  items-center justify-center gap-4 text-2xl ">
         <a href="https://www.linkedin.com" target='_blank'  aria-label="LinkedIn">
 
-          <CiLinkedin />
+          <IoLogoLinkedin />
         </a>
         <a href="https://www.github.com" target='_blank'  aria-label="GitHub">
           <IoLogoGithub />
         </a>
         <a href="https://www.twitter.com" target='_blank'  aria-label="X (Twitter)">
-        <CiTwitter />
+        <IoLogoTwitter />
 
         </a>
         <a href="https://www.instagram.com" target='_blank' aria-label="Instagram">
